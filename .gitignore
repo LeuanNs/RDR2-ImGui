@@ -1,0 +1,53 @@
+# Build outputs
+build/
+tmp/
+*.obj
+*.exe
+*.dll
+*.asi
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+# NuGet
+packages/
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# MinHook build artifacts
+minhook/build/
+!**/lib/
+
+# Config files with sensitive data
+*_config.txt
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
