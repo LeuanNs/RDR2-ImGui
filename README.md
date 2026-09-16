@@ -84,21 +84,24 @@ RDR2ImGuiMod/
 ### Installation
 
 1. Copy `RDR2ImGuiMod.asi` to your RDR2 game directory
-2. Copy `RDR2ImGuiMod_config.txt` to your RDR2 game directory
-3. Launch the game
-4. Press **F5** to toggle the mod UI
+2. Launch the game
+3. Press **F5** to toggle the mod UI
+
+**Optional:** Copy `RDR2ImGuiMod_config.txt` to your game directory only if you need to force a specific graphics API (see Configuration below). By default, the mod auto-detects your API from RDR2's `system.xml`.
 
 ---
 
 ## Configuration
 
-Edit `RDR2ImGuiMod_config.txt` in your game directory:
+**Optional:** Create `RDR2ImGuiMod_config.txt` in your game directory only if auto-detection fails or you want to force a specific API:
 
 ```ini
 # Graphics API: Vulkan or DX12
 # If not specified, auto-detects from system.xml
 HookType=Vulkan
 ```
+
+Most users don't need this file. The mod will automatically detect your graphics API from RDR2's settings.
 
 ---
 
